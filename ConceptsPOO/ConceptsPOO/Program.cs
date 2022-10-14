@@ -3,8 +3,8 @@ using ConceptsPOO;
 
 Console.WriteLine("Hello, World!");
 Console.WriteLine("==============");
-Date date1 = new Date(2022,10,14);
-Console.WriteLine(date1 );
+Date date1 = new Date(2022,8,14);
+Console.WriteLine(date1);
 
 
 
