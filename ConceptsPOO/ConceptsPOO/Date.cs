@@ -21,7 +21,7 @@ namespace ConceptsPOO
         public override string ToString()
         {
             /*return _year + "/"+ _month +"/"+ _day;*///Forma asquerosa
-            return $"{_year}/{_month:00}/{_day:00}";//Interpolacion de C#
+            return $"{_year}/{_month:00}/{_day:00}";//Interpolacion de C# csharp
         }
 
     }
