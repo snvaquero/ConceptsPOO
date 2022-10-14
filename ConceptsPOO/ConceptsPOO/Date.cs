@@ -15,9 +15,19 @@ namespace ConceptsPOO
         public Date(int year, int month , int day)
         {
             _year = year;
-            _month = month; 
+            _month = CheckMonth(month); 
             _day = day; 
         }
+
+        private int CheckMonth(int month)
+        {
+            if (month >= 1 && month <=12)
+            {
+                return month;
+            }
+            throw new NotImplementedException();
+        }
+
         public override string ToString()
         {
             /*return _year + "/"+ _month +"/"+ _day;*///Forma asquerosa
