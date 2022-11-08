@@ -11,7 +11,7 @@
         public override string ToString()
         {
             return $"{base.ToString()}" +
-                $" \n\tValue to Pay: {GetValueToPay()}";
+                $" \n\tValue to Pay: {$"{GetValueToPay():C2},15"}";
         }
     }
 }
